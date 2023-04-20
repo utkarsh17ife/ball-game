@@ -1,16 +1,16 @@
 use bevy::prelude::*;
 use bevy::window::PrimaryWindow;
 
-use crate::player::components::*;
+use crate::game::player::components::*;
 
-use crate::enemy::components::Enemy;
-use crate::enemy::ENEMY_SIZE;
-use crate::star::components::Star;
-use crate::star::STAR_SIZE;
+use crate::game::enemy::components::Enemy;
+use crate::game::enemy::ENEMY_SIZE;
+use crate::game::star::components::Star;
+use crate::game::star::STAR_SIZE;
 
-use crate::score::resources::Score;
+use crate::game::score::resources::Score;
 
-use crate::GameOver;
+use crate::events::GameOver;
 
 use super::{PLAYER_SIZE, PLAYER_SPEED};
 

@@ -3,8 +3,8 @@ use bevy::window::PrimaryWindow;
 use rand::*;
 
 use super::NUM_OF_STARS;
-use crate::star::components::*;
-use crate::star::resources::*;
+use crate::game::star::components::*;
+use crate::game::star::resources::*;
 
 pub fn spawn_stars(
     mut commands: Commands,
